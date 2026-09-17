@@ -6,8 +6,15 @@ A modern Chrome Extension that syncs coding solutions to GitHub, organizes repos
 
 ![React](https://img.shields.io/badge/React-Latest-61DAFB?style=flat-square&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-Latest-646CFF?style=flat-square&logo=vite&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-v4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![React Router](https://img.shields.io/badge/React%20Router-Latest-CA4245?style=flat-square&logo=reactrouter&logoColor=white)
 ![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![GitHub API](https://img.shields.io/badge/GitHub-API-181717?style=flat-square&logo=github&logoColor=white)
+![GitHub OAuth](https://img.shields.io/badge/GitHub-OAuth-181717?style=flat-square&logo=github&logoColor=white)
+![Chrome Storage](https://img.shields.io/badge/Chrome-Storage-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
+![Lucide](https://img.shields.io/badge/Lucide-Icons-F56565?style=flat-square&logo=lucide&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 ---
 
