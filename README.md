@@ -14,7 +14,6 @@ A modern Chrome Extension that syncs coding solutions to GitHub, organizes repos
 ![GitHub OAuth](https://img.shields.io/badge/GitHub-OAuth-181717?style=flat-square&logo=github&logoColor=white)
 ![Chrome Storage](https://img.shields.io/badge/Chrome-Storage-4285F4?style=flat-square&logo=googlechrome&logoColor=white)
 ![Lucide](https://img.shields.io/badge/Lucide-Icons-F56565?style=flat-square&logo=lucide&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
 
 ---
 
