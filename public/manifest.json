@@ -1,0 +1,40 @@
+{
+    "manifest_version": 3,
+    "name": "CodeSync",
+    "version": "1.0.0",
+    "description": "Sync coding practice solutions and track your coding activity across platforms.",
+    "author": "Alok Maurya",
+    "action": {
+        "default_title": "CodeSync",
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "service_worker": "background.js",
+        "type": "module"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://leetcode.com/*",
+                "https://www.hackerrank.com/*",
+                "https://www.geeksforgeeks.org/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "permissions": [
+        "storage"
+    ],
+    "host_permissions": [
+        "https://leetcode.com/*",
+        "https://www.hackerrank.com/*",
+        "https://www.geeksforgeeks.org/*",
+        "https://api.github.com/*"
+    ],
+    "icons": {
+        "16": "icons/icons.svg"
+    }
+}
