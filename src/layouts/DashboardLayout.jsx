@@ -37,7 +37,7 @@ export default function DashboardLayout() {
     navigation.find((item) => item.href === location.pathname)?.name ?? "Dashboard";
 
   return (
-    <div className="mx-auto flex h-screen w-full max-w-screen-2xl overflow-hidden bg-slate-100 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <div className="mx-auto flex h-screen w-full max-w-screen-2xl overflow-hidden bg-slate-50 text-slate-900 dark:bg-slate-950 dark:text-slate-100">
 
       {/* Sidebar */}
       <aside className={`relative flex shrink-0 flex-col border-r border-slate-300 bg-white transition-[width] duration-200 dark:border-slate-800 dark:bg-slate-900 ${sidebarCollapsed ? "w-16" : "w-64"}`}>
@@ -146,7 +146,7 @@ export default function DashboardLayout() {
             )}
 
             {/* Current Page */}
-            <h2 className="truncate text-base font-semibold md:text-lg">
+            <h2 className="truncate text-base font-semibold md:text-lg text-gray-700 dark:text-gray-200">
               {currentPage}
             </h2>
 

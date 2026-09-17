@@ -92,14 +92,14 @@ function Popup() {
         )}
       </div>
 
+      {isConnected && (
       <button
         onClick={openDashboard}
-        className="group flex w-full items-center justify-center gap-2 rounded-lg border border-slate-300 bg-slate-50 px-4 py-2.5 text-sm font-semibold text-slate-800 shadow-sm transition-all hover:border-fuchsia-400/50 hover:bg-fuchsia-500/10 hover:text-fuchsia-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-fuchsia-500/50 dark:hover:bg-fuchsia-500/10 dark:hover:text-fuchsia-300"
-      >
+        className="group flex w-full items-center justify-center gap-2 rounded-lg border border-slate-300 bg-slate-50 px-4 py-2.5 text-sm font-semibold text-slate-800 shadow-sm transition-all hover:border-fuchsia-400/50 hover:bg-fuchsia-500/10 hover:text-fuchsia-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-200 dark:hover:border-fuchsia-500/50 dark:hover:bg-fuchsia-500/10 dark:hover:text-fuchsia-300">
         <span>Open Dashboard</span>
         <ExternalLink className="size-4 transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
       </button>
-
+      )}
       <div className="mt-4 flex items-center justify-center gap-2 border-t border-slate-200 pt-4 dark:border-slate-800">
         <a href="https://aloksde.com" target="_blank" rel="noopener noreferrer" title="Portfolio" className="inline-flex flex-1 items-center justify-center gap-1.5 rounded-lg border border-slate-300 bg-slate-50 px-2.5 py-1.5 text-xs font-medium text-slate-700 transition-colors hover:border-violet-400/50 hover:bg-violet-500/10 hover:text-violet-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-violet-500/50 dark:hover:bg-violet-500/10 dark:hover:text-violet-300">
           <Globe className="size-3.5" />
